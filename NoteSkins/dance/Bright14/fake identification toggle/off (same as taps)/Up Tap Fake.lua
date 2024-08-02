@@ -1,5 +1,5 @@
 return Def.Sprite {
-	Texture = NOTESKIN:GetPath("_up", ""),
+	Texture = NOTESKIN:GetPath("_up tap", ""),
 	Frame0000 = 0,
 	Delay0000 = 1
 }

@@ -60,10 +60,6 @@ function Nskin.Load()
 		Button = Nskin.ButtonRedir[sButton]
 	end
 
-	if string.find(sElement, "Head") then
-		Element = "Tap Note"
-	end
-
 	local t = LoadActor(NOTESKIN:GetPath(Button,Element))
 
 	if Nskin.Blank[sElement] then

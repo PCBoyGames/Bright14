@@ -1,6 +1,6 @@
 return Def.ActorFrame {
 	Def.Sprite {
-		Texture = NOTESKIN:GetPath("_left", ""),
+		Texture = NOTESKIN:GetPath("_left tap", ""),
 		Frame0000 = 0,
 		Delay0000 = 1,
 		InitCommand = function(self)
